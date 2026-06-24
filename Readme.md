@@ -49,9 +49,12 @@ TicketFlow is an event-driven booking platform designed to handle the chaos of h
 
 Ticketo lets users browse events, lock seats, pay, and receive a verifiable QR-code ticket over email — all without double-booking. The core challenge is seat inventory: multiple users hitting "Book" at the same time for the last few seats. Solving that cleanly, without pessimistic DB locks killing throughput, is what shaped every major architectural decision in this project.
 
-[👉 HIGHLIGHT THIS ENTIRE LINE AND DRAG/DROP YOUR VIDEO FILE HERE 👈]
+<a href="https://youtu.be/ucNFuiLdy2U">
+  <img src="https://img.youtube.com/vi/ucNFuiLdy2U/maxresdefault.jpg" width="600" alt="TicketFlow Demo"/>
+</a>
 
-
+---
+<br><br>
 | Booking Detail | QR Code |
 | :---: | :---: |
 | <a href="docs/email.png"><img src="docs/email.png" width="100%" alt="Booking Detail"/></a> | <a href="docs/qrcode.png"><img src="docs/qrcode.png" width="100%" alt="QR Code"/></a> |
